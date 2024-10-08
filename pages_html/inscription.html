@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/index.css" />
+</head>
+
+<body>
+    <header>
+        <img id="img1" src="../images/logo IIT.png" title="logo_iit" alt="logo_iit" />
+        <h1> Universté Nord Américaine Privée: Institut International de Technologie </h1>
+        <img id="img2" src="../images/campus.jfif" title="logo_iit" alt="logo_iit" />
+        <div class="div1">
+            <a class="link" href="../index.html"> Actualité </a> &nbsp;
+            <a class="link" href="#main"> Inscription </a> &nbsp;
+            <a class="link" href="../pages_html/galerie.html"> Galerie </a>
+        </div>
+    </header>
+    <main id="main">
+        <hr>
+        <fieldset>
+            <legend> Inscription étudiant </legend>
+            <table>
+                <tr>
+                    <td><label for="nom"> Nom :</label></td>
+                    <td><input id="nom" name="nom" type="text" placeholder="ajoutez votre nom" /></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom"> Prénom :</label></td>
+                    <td><input id="prenom" name="prenom" type="text" placeholder="ajoutez votre prenom" /></td>
+                </tr>
+                <tr>
+                    <td><label for="date"> date de naissance :</label></td>
+                    <td><input id="date" name="date" type="date" /></td>
+                </tr>
+                <tr>
+                    <td><label for="sexe"> sexe :</label></td>
+                    <td><input id="sexe" name="sexe" type="radio" value="femme" /> femme
+                        <input id="sexe" name="sexe" type="radio" value="homme" /> homme
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="ville"> ville :</label></td>
+                    <td><select id="ville" name="ville">
+                            <option id="sfax"> sfax </option>
+                            <option id="tunis" selected> tunis </option>
+                            <option id="sousse"> sousse </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Langage"> Langage :</label></td>
+                    <td>
+                        <input id="Langage" name="Langage" type="checkbox" value="Arabe" /> Arabe
+                        <br>
+                        <input id="Langage" name="Langage" type="checkbox" value="Francais" /> Francais
+                        <br>
+                        <input id="Langage" name="Langage" type="checkbox" value="Anglais" /> Anglais
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="image"> Image :</label></td>
+                    <td><input id="image" name="image" type="file" value="image" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit"> Valider </button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <hr>
+    </main>
+
+
+    <footer>
+        <h5>Route Mharza km1.5, Sfax </h5>
+        <h5>Tel : +216 74465020</h5>
+        <h5>MAIL:contact.iit@iit.tn </h5>
+    </footer>
+
+</body>
+
+</html>
