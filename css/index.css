@@ -38,7 +38,6 @@ h1{
 
 .link:hover {
     background-color: #e4c7a5;
-    /* Beige clair au survol */
 }
 
 main {
@@ -107,9 +106,12 @@ fieldset{
     
 }
 
-.article1 h2 {
+.underline {
     color: #ff1900; 
     font-style: italic;
+    border-bottom: 3px dotted #ff1900; 
+    display: inline-block; 
+    font-weight: bold;
 }
 
 .article1 img {
@@ -119,4 +121,57 @@ fieldset{
 .article1 p{
     text-indent: 30px;
 }
+
+#nom,#prenom,#date, select {
+    border-radius: 8px;
+    background-color: #ffffff; 
+    width: 150px;
+}
+
+
+#main div {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    padding-bottom: 30px;
+}
+
+#img3 {
+    
+    width: 350px;           
+    height: 350px;          
+    border: 10px solid white; 
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 1); 
+    object-fit: cover;      
+}
+
+.styled-paragraph {
+    line-height: 1.5;
+    text-align: justify;  
+}
+
+.styled-table {
+    width: 100%;
+    max-width: 480px; 
+    border-collapse: collapse; 
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.styled-table td {
+    border: 3px solid #fff; 
+    padding: 8px 12px;
+   
+}
+
+.styled-table th {
+    background-color: #B39A7C;
+    
+}
+
+
+
 
